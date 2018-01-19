@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.left-main-menu > a {
+  display: inline-block;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  padding: 7px 5px;
+  margin: 10px 10px;
+  transition: 0.2s all;
+}
+
+.left-main-menu > a:hover {
+  color: #1da1f2;
+  border-bottom: 1px solid;
+  border-bottom-color: #1da1f2;
+}
+
+.logo > a > img {
+  width: 25px;
+  height: 25px;
+}
+
+.right-main-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.right-main-menu > div > input {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 7px 15px;
+}
+
+.write-tweet {
+  padding: 7px 15px;
+  background: #1da1f2;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px;
+}
