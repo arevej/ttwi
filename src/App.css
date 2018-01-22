@@ -164,8 +164,13 @@ a {
 
 .square-button {
   line-height: 2em;
-  margin-right: 10px;
-  border: 1px solid #1da1f2;
+  margin-right: 5px;
+  border: 1px solid transparent;
   border-radius: 5px;
-  padding: 0 5px;
+  padding: 0 6px;
+  transition: 0.2s all;
+}
+
+.square-button:hover {
+  border-color: #1da1f2;
 }
