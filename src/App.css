@@ -1,9 +1,156 @@
 body {
   font-size: 16px;
   font-family: "Helvetica Neue";
+  background: #ccc;
 }
 
-.container {
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+.content {
   width: 1100px;
   margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-column {
+
+}
+
+.profile-info {
+  background: #fff;
+}
+
+.min-cover-pic {
+  height: 110px;
+  background-color: #aaa;
+}
+
+.min-profile-pic {
+  margin-top: -50px;
+  margin-left: 20px;
+}
+
+.num-info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+
+.num-info a {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.num-info .title {
+  margin-bottom: 3px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: 0.2s all;
+}
+
+.num-info .title:hover {
+  color: #1da1f2;
+}
+
+.num-info .value {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1da1f2;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.grey-link {
+  color: #657786;
+  font-size: 15px;
+}
+
+.trends {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  background: #fff;
+}
+
+.trends h2 {
+  font-size: 19px;
+}
+
+.trends a {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #1da1f2;
+  font-weight: 600;
+  transition: 0.2 all;
+  font-size: 15px;
+}
+
+.trends .link {
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-top: 24px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.trends a:hover {
+  text-decoration: underline;
+}
+
+
+.write-tweet-block {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  background: #E8F5FD;
+  padding: 10px 25px;
+}
+
+.write-tweet-block input {
+  border: none;
+  font-size: 14px;
+}
+
+.write-tweet-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #1da1f6;
+  margin-left: 10px;
+  padding: 0 10px;
+  border: 0.1px solid #b4def8;
+  background: #fff;
+  border-radius: 10px;
+  width: 400px;
+  font-size: 14px;
+  padding: 5px 15px;
+}
+
+.write-tweet-input > textarea {
+  border: none;
+  overflow: none;
+  outline: none;
+  padding: 5px 0;
+  font-size: 14px;
+  width: 100%;
+}
+
+.write-tweet-input-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
