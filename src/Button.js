@@ -2,9 +2,17 @@ import React, { Component } from 'react';
 
 import './Button.css';
 
-function Button ({ text }) {
+export function RoundButton () {
   return (
-    <a href="#" className="button">{text}</a>
+    <div className="round-button">
+      ＋
+    </div>
+  )
+}
+
+function Button ({ text, round, outline }) {
+  return (
+    <a href="#" className={"button " + (round ? "button--round " : "") + (outline ? "button--outline" : "")}>{text}</a>
   )
 }
 

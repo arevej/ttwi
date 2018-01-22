@@ -4,6 +4,7 @@ import Header from './Header';
 import Avatar from './Avatar';
 import InputFile from './InputFile';
 import Button from './Button';
+import {RoundButton} from './Button';
 
 import './App.css';
 
@@ -150,12 +151,16 @@ class App extends Component {
                       </div>
                     </div>
                     <div className="write-tweet-input-buttons">
-                      <div>🖼</div>
-                      <div>🗾</div>
-                      <div>📊</div>
-                      <div>🗺</div>
-                      <div></div>
-                      <Button text="Tweet" />
+                      <div style={{ display: 'flex', flexDirection: 'row' }}>
+                        <div className="square-button">🖼</div>
+                        <div className="square-button">🗾</div>
+                        <div className="square-button">📊</div>
+                        <div className="square-button">🗺</div>
+                      </div>
+                      <div style={{ display: 'flex', flexDirection: 'row' }}>
+                        <RoundButton />
+                        <Button text="Tweet" />
+                      </div>
                     </div>
                   </div>
                 ): (
