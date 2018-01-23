@@ -13,7 +13,7 @@ import './App.css';
 function ProfileInfo ({ avatarUrl, coverUrl, name, login, tweetsCount, followingCount, followersCount }) {
   return (
     <div className="profile-info">
-      <div className="min-cover-pic">
+      <div className="min-cover-pic" style={{ backgroundImage: `url(" ${coverUrl} ")` }}>
       </div>
       <div className="profile-info">
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-end' }}>
@@ -94,9 +94,9 @@ class App extends Component {
         followers: 195747,
       },
       tweets: [
-        {authorName: "Tom", authorLogin: "@knke", authorAvatarUrl: "https://pbs.twimg.com/profile_images/883637729782792193/ygU8MLl2_400x400.jpg", text: "My design course now has 5 hrs of video, 27k words of lessons, 10 really detailed practice project briefs, dozens of source files, a Facebook community, and more on the way. But that's not what makes it worthwhile.", likes: 2, retweets: 5, responses: 4, publishDate: new Date},
-        {authorName: "Ann", authorLogin: "@rererve223", authorAvatarUrl: "https://www.thewrap.com/wp-content/uploads/2015/11/Donald-Trump.jpg", text: "If you’re on the fence, you can email me on this page. I’ll be honest about whether the course is right for you. I don’t want your money if the course isn’t useful.", likes: 0, retweets: 2, responses: 0, publishDate: new Date},
-        {authorName: "Alex", authorLogin: "@77736hhue", authorAvatarUrl: "https://www.alvinailey.org/sites/default/files/styles/slideshow_image/public/melanie-person.jpg?itok=ocw3xkx_", text: "You can save $50 on the course for a few more hours. It’s called TheorySprints. Use discount code “theorysprints50”. See more details at this link", likes: 5, retweets: 51, responses: 2, publishDate: new Date},
+        {authorName: "Tom", authorLogin: "knke", authorAvatarUrl: "https://pbs.twimg.com/profile_images/883637729782792193/ygU8MLl2_400x400.jpg", text: "My design course now has 5 hrs of video, 27k words of lessons, 10 really detailed practice project briefs, dozens of source files, a Facebook community, and more on the way. But that's not what makes it worthwhile.", likes: 2, retweets: 5, responses: 4, publishDate: new Date},
+        {authorName: "Ann", authorLogin: "rererve223", authorAvatarUrl: "https://www.thewrap.com/wp-content/uploads/2015/11/Donald-Trump.jpg", text: "If you’re on the fence, you can email me on this page. I’ll be honest about whether the course is right for you. I don’t want your money if the course isn’t useful.", likes: 0, retweets: 2, responses: 0, publishDate: new Date},
+        {authorName: "Alex", authorLogin: "77736hhue", authorAvatarUrl: "https://www.alvinailey.org/sites/default/files/styles/slideshow_image/public/melanie-person.jpg?itok=ocw3xkx_", text: "You can save $50 on the course for a few more hours. It’s called TheorySprints. Use discount code “theorysprints50”. See more details at this link", likes: 5, retweets: 51, responses: 2, publishDate: new Date},
       ],
       isActiveWriteTweetInput: false,
     };

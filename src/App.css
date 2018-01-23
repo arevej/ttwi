@@ -27,7 +27,8 @@ a {
 
 .min-cover-pic {
   height: 110px;
-  background-color: #aaa;
+  background-position: center;
+  background-size: cover;
 }
 
 .min-profile-pic {
