@@ -5,6 +5,7 @@ import Avatar from './Avatar';
 import InputFile from './InputFile';
 import Button from './Button';
 import {RoundButton} from './Button';
+import * as Icons from 'react-icons/lib/ti';
 
 import './App.css';
 
@@ -145,17 +146,27 @@ class App extends Component {
                         placeHolder="What's happening?"
                         autoFocus
                       />
-                      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '80px'}}>
-                        <div>😀</div>
+                      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center', height: '80px'}}>
+                        <div>
+                          <Icons.TiLeaf size={25} color="#aaa"/>
+                        </div>
                         <div onClick={this.hideWriteTweetBlockInput}>⚪️</div>
                       </div>
                     </div>
                     <div className="write-tweet-input-buttons">
                       <div style={{ display: 'flex', flexDirection: 'row' }}>
-                        <div className="square-button">🖼</div>
-                        <div className="square-button">🗾</div>
-                        <div className="square-button">📊</div>
-                        <div className="square-button">🗺</div>
+                        <div className="square-button">
+                          <Icons.TiImageOutline size={25} color="#1da1f2"/>
+                        </div>
+                        <div className="square-button">
+                          <Icons.TiArrowRepeat size={25} color="#1da1f2"/>
+                        </div>
+                        <div className="square-button">
+                          <Icons.TiChartBarOutline size={25} color="#1da1f2"/>
+                        </div>
+                        <div className="square-button">
+                          <Icons.TiLocationOutline size={25} color="#1da1f2"/>
+                        </div>
                       </div>
                       <div style={{ display: 'flex', flexDirection: 'row' }}>
                         <RoundButton />

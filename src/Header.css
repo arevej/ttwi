@@ -16,13 +16,20 @@
 .left-main-menu > a {
   display: inline-block;
   text-decoration: none;
+  align-items: center;
   border-bottom: 2px solid;
   border-bottom-color: transparent;
-  color: #555;
+  color: #66757f;
   font-weight: 500;
   padding: 15px 5px;
   margin: 0 10px;
   transition: 0.2s all;
+}
+
+.left-main-menu svg {
+  vertical-align: middle;
+  margin-top: -0.2em;
+  margin-right: 0.3em;
 }
 
 .left-main-menu > a:hover {
@@ -47,7 +54,9 @@
 }
 
 .right-main-menu > div > input {
-  border: 1px solid #ddd;
+  border: 1px solid #e6ecf0;
   border-radius: 15px;
-  padding: 7px 15px;
+  padding: 8px 15px;
+  background: #f5f8fa;
+  color: #14171a;
 }
