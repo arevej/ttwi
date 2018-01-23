@@ -1,0 +1,72 @@
+.tweet {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #e6ecf0;
+  background: #e6ecf0;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #333;
+  transition: 0.2s all;
+}
+
+.tweet:hover {
+  background: #f5f8fa;
+}
+
+.tweet img {
+  margin-right: 20px;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3px;
+  justify-content: space-between;
+  color: #657786;
+}
+
+.personal-info a, span{
+  color: #657786;
+  margin-right: 5px;
+  transition: 0.2s all;
+}
+
+.personal-info a:hover {
+  color: #1da1f2;
+  text-decoration: underline;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  color: #657786;
+  transition: 0.2s all;
+}
+
+.buttons div {
+  vertical-align: middle;
+  margin-top: -0.2em;
+  margin-right: 25px;
+  flex: 1;
+}
+
+.buttons svg {
+  padding-right: 5px;
+}
+
+.response-button:hover {
+  color: #1da1f2;
+}
+
+.retweet-button:hover {
+  color: green;
+}
+
+.like-button:hover {
+  color: red;
+}
+
+.mail-button:hover {
+  color: #1da1f2;
+}
