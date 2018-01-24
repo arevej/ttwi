@@ -33,7 +33,7 @@ function Tweet ({ avatarUrl, name, login, text, responses, likes, retweets, publ
     <div className="tweet">
       <Avatar
         avatarUrl={avatarUrl}
-        size={45}
+        size={50}
       />
       <div>
         <div className="text-block">

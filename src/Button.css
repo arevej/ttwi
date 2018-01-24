@@ -18,3 +18,15 @@
   font-size: 16px;
   border-radius: 15px;
 }
+
+.button--outline {
+  background: #fff;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+  padding: 2px 21px;
+  transition: 0.2s all;
+}
+
+.button--outline:hover {
+  background: rgba(139, 207, 248, 0.2);
+}
