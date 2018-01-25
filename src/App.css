@@ -90,7 +90,7 @@ a {
   font-size: 19px;
 }
 
-.trends a {
+.trends a  {
   margin-bottom: 10px;
   text-decoration: none;
   color: #1da1f2;
@@ -106,6 +106,10 @@ a {
   font-size: 12px;
   font-weight: 400;
   color: #1da1f2;
+}
+
+.suggestions .link:hover {
+  text-decoration: underline;
 }
 
 .trends a:hover {
@@ -172,6 +176,7 @@ a {
   border-radius: 5px;
   padding: 0 4px;
   transition: 0.2s all;
+  color: #1da1f2;
 }
 
 .square-button:hover {
@@ -252,4 +257,35 @@ a {
 
 .footer span {
   margin-right: 10px;
+}
+
+
+
+
+.modal {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.modal .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.modal .block {
+  position: absolute;
+  border-radius: 10px;
+  width: 600px;
+  height: 500px;
+  background: #fff;
+  top: 3.5em;
+  left: 26em;
 }

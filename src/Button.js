@@ -2,17 +2,23 @@ import React, { Component } from 'react';
 
 import './Button.css';
 
-export function RoundButton () {
+export function RoundButton ({ text }) {
   return (
     <div className="round-button">
-      ＋
+      {text}
     </div>
   )
 }
 
-function Button ({ text, round, outline }) {
+function Button ({ text, round, outline, onClick }) {
   return (
-    <a href="#" className={"button " + (round ? "button--round " : "") + (outline ? "button--outline" : "")}>{text}</a>
+    <a
+      href="#"
+      onClick={onClick}
+      className={"button " + (round ? "button--round " : "") + (outline ? "button--outline" : "")}
+    >
+      {text}
+    </a>
   )
 }
 

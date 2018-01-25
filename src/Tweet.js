@@ -15,6 +15,7 @@ class FromNow extends Component {
     this.num = setInterval(() => {
       this.setState({ date: new Date });
     }, 1000);
+    console.log(new Date)
 
   }
 
@@ -28,9 +29,9 @@ class FromNow extends Component {
   }
 }
 
-function Tweet ({ avatarUrl, name, login, text, responses, likes, retweets, publishDate }) {
+function Tweet ({ avatarUrl, name, login, text, responses, likes, retweets, publishDate, onClick }) {
   return (
-    <div className="tweet">
+    <div className="tweet" onClick={onClick}>
       <Avatar
         avatarUrl={avatarUrl}
         size={50}
