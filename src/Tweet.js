@@ -36,7 +36,7 @@ function Tweet ({ avatarUrl, name, login, text, responses, likes, retweets, publ
         avatarUrl={avatarUrl}
         size={50}
       />
-      <div>
+      <div style={{ flex: 1 }}>
         <div className="text-block">
           <div className="personal-info">
             <div>

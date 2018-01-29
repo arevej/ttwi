@@ -93,6 +93,7 @@ class TweetComposer extends Component {
 
   handlePost = () => {
     this.props.onPost(this.state.typingText);
+    this.setState({ typingText: '' })
   }
 
   render () {
@@ -291,7 +292,11 @@ class App extends Component {
   }
 
   postTweet = (text) => {
-    alert('Posting: ' + text);
+    const {account, tweets} = this.state;
+    const nextId = tweets[tweets.length-1].id + 1;
+    const newTweet = {id: nextId, authorName: account.name, authorLogin: account.login, authorAvatarUrl: account.avatarUrl, text: text, likes: 0, retweets: 0, responses: 0, publishDate: new Date}
+    const newTweets = [newTweet, ...tweets];
+    this.setState({ tweets: newTweets });
   }
 
   hideModal = () => {
