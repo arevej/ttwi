@@ -30,3 +30,14 @@
 .button--outline:hover {
   background: rgba(139, 207, 248, 0.2);
 }
+
+.button--long {
+  background: #1da1f2;
+  color: #fff;
+  padding: 5px 16px;
+  transition: 0.2s all;
+}
+
+.button--long:hover {
+  background: red;
+}

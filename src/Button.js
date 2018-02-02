@@ -10,12 +10,12 @@ export function RoundButton ({ text }) {
   )
 }
 
-function Button ({ text, round, outline, onClick }) {
+function Button ({ text, round, outline, long, onClick }) {
   return (
     <a
       href="#"
       onClick={onClick}
-      className={"button " + (round ? "button--round " : "") + (outline ? "button--outline" : "")}
+      className={"button " + (round ? "button--round " : "") + (outline ? "button--outline" : "") + (long ? "button--long" : "")}
     >
       {text}
     </a>
