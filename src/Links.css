@@ -1,0 +1,22 @@
+.block-down-link {
+  padding: 17px 20px;
+  font-size: 13px;
+  font-weight: 300;
+  background: #fff;
+  border-top: 1px solid #e6ecf0;
+}
+
+.block-down-link svg {
+  vertical-align: middle;
+  margin-top: -0.2em;
+  margin-right: 5px;
+}
+
+.block-down-link a {
+  color: #1da1f2;
+  transition: 0.2s all;
+}
+
+.block-down-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+.suggestions {
+  background: #fff;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.suggestion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.suggestion .right-side {
+  display: flex;
+  flex-direction: row;
+}
+
+.suggestions .link {
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-top: 24px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #1da1f2;
+}
+
+.suggestions .link:hover {
+  text-decoration: underline;
+}
+
+.line {
+  height: 1px;
+  border-bottom: 1px solid #e6ecf0;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,34 @@
+.trends {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  background: #fff;
+}
+
+.block-title {
+  font-size: 19px;
+}
+
+.trends a  {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #1da1f2;
+  font-weight: 600;
+  transition: 0.2 all;
+  font-size: 15px;
+}
+
+.trends .link {
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-top: 24px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #1da1f2;
+}
+
+.trends a:hover {
+  text-decoration: underline;
+}

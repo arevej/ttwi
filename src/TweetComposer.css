@@ -1,0 +1,60 @@
+.write-tweet-block {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  background: #E8F5FD;
+  padding: 10px 25px;
+}
+
+.write-tweet-block input {
+  border: none;
+  font-size: 14px;
+}
+
+.write-tweet-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #1da1f6;
+  margin-left: 10px;
+  padding: 0 10px;
+  border: 0.1px solid #b4def8;
+  background: #fff;
+  border-radius: 10px;
+  width: 400px;
+  font-size: 14px;
+  padding: 5px 15px;
+}
+
+.write-tweet-input > textarea {
+  border: none;
+  overflow: none;
+  outline: none;
+  padding: 5px 0;
+  font-size: 14px;
+  width: 100%;
+  flex: 1;
+}
+
+.write-tweet-input-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.square-button {
+  line-height: 2em;
+  margin-right: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0 4px;
+  transition: 0.2s all;
+  color: #1da1f2;
+}
+
+.square-button:hover {
+  border-color: #1da1f2;
+}

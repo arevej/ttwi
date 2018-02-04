@@ -1,0 +1,55 @@
+.profile-info {
+  background: #fff;
+}
+
+.min-cover-pic {
+  height: 110px;
+  background-position: center;
+  background-size: cover;
+}
+
+.min-profile-pic {
+  margin-top: -50px;
+  margin-left: 20px;
+}
+
+.num-info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+
+.num-info a {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.num-info .title {
+  margin-bottom: 3px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: 0.2s all;
+}
+
+.num-info .title:hover {
+  color: #1da1f2;
+}
+
+.num-info .value {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1da1f2;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.grey-link {
+  color: #657786;
+  font-size: 15px;
+}
